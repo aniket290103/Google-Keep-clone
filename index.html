@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANDY KEEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/70142788c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="google keep 12.jpg" class="logoimage">
+            <span class="logo-text">Google Keep App</span>
+        </div>
+        <div class="navbar-icons">
+            <i class="fa-solid fa-search"></i>
+            <i class="fa-solid fa-home"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-cog"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <div class="add-note">
+
+        <div class="input-container">
+            <input type="text" id="note-title" placeholder="Title">
+            <textarea id="note-content" placeholder="Take a note..."></textarea>
+            <button id="add-note-button">Add Note</button>
+        </div>
+    </div>
+    <div class="note-container">
+        <div class="note" id="note-template" style="display: none;">
+            <h3 class="note-title"></h3>
+            <p class="note-content"></p>
+            <button class="edit-note"><i class="fa-solid fa-pen-to-square "></i></button>
+            <button class="delete-note"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

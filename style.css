@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: #ffcc00;
+    box-shadow: 2px 5px 5px rgb(214, 210, 210);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+.logoimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-icons {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.navbar-icons i {
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar-icons i:hover {
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+
+
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.note {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgb(214, 210, 210);
+    position: relative;
+}
+
+.add-note {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.input-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgb(214, 210, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+#note-title, #note-content {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-note-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffcc00;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-note-button:hover {
+    background-color: #ffb300;
+}
+
+.edit-note, .delete-note {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-note {
+    background-color: #ffcc00;
+    right: 70px;
+}
+
+.delete-note {
+    background-color: #ffcc00;
+    right: 10px;
+}
+
+.edit-note:hover {
+    background-color: #ffb300;
+}
+
+.delete-note:hover {
+    background-color: #ffb300;
+}
